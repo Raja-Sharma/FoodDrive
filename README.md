@@ -1,2 +1,2 @@
 # Food Drive
-![Food Drive Logo](app/assets/images/Food Drive logo.png "Food Drive Logo")
+![Food Drive Logo](https://github.com/Raja-Sharma/FoodDrive/blob/master/app/assets/images/Food%20Drive%20logo.png?raw=true "Food Drive Logo")
