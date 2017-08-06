@@ -1,6 +1,6 @@
-User.delete_all
-Food.delete_all
 ClaimedFood.delete_all
+Food.delete_all
+User.delete_all
 
 raja = User.new(
   username: 'Raja',
@@ -43,3 +43,19 @@ ClaimedFood.create(
   food: beans,
   user: joe
 )
+
+spam = Food.new(
+  name: 'spam',
+  category: 'canned',
+  donor: joe
+)
+
+spam.save
+
+tuna = Food.new(
+  name: 'tuna',
+  category: 'canned',
+  donor: joe
+)
+
+tuna.save

@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <% if logged_in? %>
+      <ul>
+        <li><a href="/users/<%= current_user.id %>">Profile</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    <% else %>
+      <ul>
+        <li><a href="/users/new">Register</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    <% end %>
     <%= yield %>
   </body>
 </html>
