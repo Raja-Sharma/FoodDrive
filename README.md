@@ -1,2 +1,2 @@
-# Food Drive
-![Food Drive Logo](https://github.com/Raja-Sharma/FoodDrive/blob/master/app/assets/images/Food%20Drive%20logo.png?raw=true "Food Drive Logo")
+## Food Drive
+A Ruby-on-Rails crud app for preventing food waste by allowing users to post food they don't need and claim food they do. Up For Grabs for food.
